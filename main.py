@@ -19,6 +19,8 @@ import traceback
 import requests
 from datetime import datetime
 import os
+import uvicorn  # ← AGGIUNTO QUESTO IMPORT
+
 
 app = FastAPI(
     title="Generatore Preventivi AbitaLab",
