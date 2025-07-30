@@ -18,6 +18,7 @@ import io
 import traceback
 import requests
 from datetime import datetime
+import os
 
 app = FastAPI(
     title="Generatore Preventivi AbitaLab",
